@@ -7,6 +7,7 @@ resource "aws_instance" "myVM1" {
     Environment = "Dev"
     CreatedOn = "01-May-2023"
     CreatedBy = "Kunal K"
+    OS = "N/A"
   }
 }
 
@@ -20,6 +21,7 @@ resource "aws_instance" "myVM2" {
     Environment = "Dev"
     CreatedOn = "01-May-2023"
     CreatedBy = "Kunal K"
+    OS = "N/A"
   }
 }
 
@@ -31,6 +33,7 @@ resource "aws_s3_bucket" "myBucket" {
     Environment = "Dev"
     CreatedOn = "01-May-2023"
     CreatedBy = "Kunal K"
+    OS = "N/A"
   }
 }
 
