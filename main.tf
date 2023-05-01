@@ -8,7 +8,6 @@ resource "aws_instance" "myVM1" {
     CreatedOn = "01-May-2023"
     CreatedBy = "Kunal K"
     OS = "N/A"
-    Scope = "Regional"
   }
 }
 
