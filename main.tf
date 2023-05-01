@@ -1,4 +1,4 @@
-resource "aws_instance" "myVM1" {
+resource "aws_instance" "myVM01" {
   ami           = "ami-00b2c40b15619f518"
   instance_type = "t2.micro"
   tags = {
@@ -12,7 +12,7 @@ resource "aws_instance" "myVM1" {
   }
 }
 
-resource "aws_instance" "myVM2" {
+resource "aws_instance" "myVM02" {
   provider      = aws.west
   ami           = "ami-0b695b365bec60938"
   instance_type = "t2.micro"
