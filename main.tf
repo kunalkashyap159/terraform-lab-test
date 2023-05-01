@@ -6,6 +6,7 @@ resource "aws_instance" "myVM1" {
     PatchGroup= "Group1"
     Environment = "Dev"
     CreatedOn = "01-May-2023"
+    CreatedBy = "Kunal K"
   }
 }
 
@@ -18,6 +19,7 @@ resource "aws_instance" "myVM2" {
     PatchGroup= "Group1"
     Environment = "Dev"
     CreatedOn = "01-May-2023"
+    CreatedBy = "Kunal K"
   }
 }
 
@@ -28,6 +30,7 @@ resource "aws_s3_bucket" "myBucket" {
     PatchGroup= "N/A"
     Environment = "Dev"
     CreatedOn = "01-May-2023"
+    CreatedBy = "Kunal K"
   }
 }
 
