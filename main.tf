@@ -1,5 +1,5 @@
 resource "aws_instance" "myVM1" {
-  ami           = "ami-00b2c40b15619f518"
+  ami           = "ami-03c7d01cf4dedc891"
   instance_type = "t2.micro"
   tags = {
     Name = "Example-01"
