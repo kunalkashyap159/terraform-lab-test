@@ -8,6 +8,7 @@ resource "aws_instance" "myVM1" {
     CreatedOn = "01-May-2023"
     CreatedBy = "Kunal K"
     OS = "N/A"
+    Scope = "Regional"
   }
 }
 
@@ -22,6 +23,7 @@ resource "aws_instance" "myVM2" {
     CreatedOn = "01-May-2023"
     CreatedBy = "Kunal K"
     OS = "N/A"
+    Scope = "Regional"
   }
 }
 
@@ -34,6 +36,7 @@ resource "aws_s3_bucket" "myBucket" {
     CreatedOn = "01-May-2023"
     CreatedBy = "Kunal K"
     OS = "N/A"
+    Scope = "Regional"
   }
 }
 
