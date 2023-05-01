@@ -1,23 +1,8 @@
 resource "aws_instance" "myVM1" {
-  ami           = "ami-00b2c40b15619f518"
+  ami           = "ami-03c7d01cf4dedc891"
   instance_type = "t2.micro"
   tags = {
     Name = "Example-01"
-    PatchGroup= "Group1"
-    Environment = "Dev"
-    CreatedOn = "01-May-2023"
-    CreatedBy = "Kunal K"
-    OS = "N/A"
-    Scope = "Regional"
-  }
-}
-
-resource "aws_instance" "myVM2" {
-  provider      = aws.west
-  ami           = "ami-0b695b365bec60938"
-  instance_type = "t2.micro"
-  tags = {
-    Name = "Example-02"
     PatchGroup= "Group1"
     Environment = "Dev"
     CreatedOn = "01-May-2023"
